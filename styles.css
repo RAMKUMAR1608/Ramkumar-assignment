@@ -1,0 +1,358 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family:'Paytone One' 'open sans', sans-serif,;
+}
+
+nav {
+    position: absolute;
+    width: 1440px;
+    height: 100px;
+    left: 0px;
+    top: 0px;
+}
+
+/* Typography */
+
+h1 {
+    position: absolute;
+    width: 585px;
+    height: 136px;
+    top: 267px;
+    left: 125px;
+    font-family: Paytone One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48.83px;
+    line-height: 68px;
+}
+
+
+p {
+    color: #05034E;
+    position: absolute;
+    width: 585px;
+    height: 81px;
+    left: 125px;
+    top: 427px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px
+    }
+
+.section-one {
+    background: #D6EBFA;
+    position: absolute;
+    width: 1440px;
+    height: 777.5px;
+    left: 0px;
+    top: 0px;
+}
+
+.logo {
+    position: absolute;
+    width: 128px;
+    height: 60px;
+    left: 118px;
+    top: 20px;
+}
+
+.book-cover {
+    position: absolute;
+    width: 509px;
+    height: 490px;
+    left: 785px;
+    top: 144px;
+
+    background: url(img/book-cover.png);
+}
+
+.vector-one {
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    left: 125px;
+    top: 833px;
+}
+.vector-two {
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    left: 125px;
+    top: 907px;
+}
+.vector-three {
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    left: 125px;
+    top: 1003px;
+}
+
+.discription-style {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #3C3C3C;
+}
+
+.discription-one {
+    position: absolute;
+    width: 459px;
+    height: 44px;
+    left: 149px;
+    top: 819px;
+    
+}
+
+.discription-two {
+    
+    position: absolute;
+    width: 459px;
+    height: 66px;
+    left: 149px;
+    top: 894px;
+    }
+
+.discription-three {
+    position: absolute;
+    width: 459px;
+    height: 44px;
+    left: 149px;
+    top: 986px;
+    
+}
+
+.download-section {
+    position: absolute;
+    width: 466px;
+    height: 345px;
+    left: 798px;
+    top: 719px;
+    background: #FFFFFF;
+    box-shadow: 20px 20px 60px rgba(0, 0, 0, 0.08);
+    border-radius: 20px;
+}
+.dull-text{
+   position: absolute;
+   height: 16px;
+   left: 898px;
+   font-family: Open Sans;
+   font-style: normal;
+   font-weight: 600;
+   font-size: 12px;
+   line-height: 16px;
+   text-align: center;
+   color: #CACACA;
+}
+
+.dull-text-size-email {
+    width:66px ;
+    top: 769px;
+}
+
+.dull-text-size-crm {
+    width:142px ;
+    top: 861px;
+}
+
+.placeholder {
+    position: absolute;
+    width: 306px;
+    height: 46px;
+    left: 878px;
+   
+    border: 1px solid #DDDDDD;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.place-top-one {
+    top: 805px;
+}
+.place-top-two {
+    top: 897px;
+}
+
+.enter-text {
+    position: absolute;
+    width: 175px;
+    height: 22px;
+    left: 898px;
+    top: 800px;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #5856CE;
+}
+
+
+.enter-text-top-two {
+    top: 889px;
+}
+
+#download-btn {
+    position: absolute;
+    width: 186px;
+    height: 41px;
+    left: 938px;
+    top: 973px;
+    color: #ffffff;
+    background: #5856CE;
+    border-radius: 4px;
+}
+
+.preview {
+    position: absolute;
+    width: 195px;
+    height: 68px;
+    left: 624px;
+    top: 1180px;
+    color: #05034E;
+}
+
+.carousel {
+   
+    position: absolute;
+    width: 1040px;
+    height: 650px;
+    left: 200px;
+    top: 1328px;
+    
+}
+
+.carousel .carousel-item,
+.carousel .carousel-item-hidden {
+    display: none;
+}
+
+.carousel .carousel-item-visible {
+    display: block;
+    animation: fadeVisibility 0.5s;
+}
+
+@keyframes fadeVisibility {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+
+
+.slides-bottom {
+    position: absolute;
+    width: 1039px;
+    height: 78px;
+    left: 201px;
+    top: 1978px;
+    background: #FFFFFF;
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.12);
+    border-radius: 0px 0px 20px 20px;
+}
+
+#carousel-button-prev {
+    cursor: pointer;
+    position: absolute;
+    left: 37.57%;
+    right: 34.99%;
+    top: 26.73%;
+    bottom: 26.74%;
+    width: 12.9px;
+    height: 20.01px;;
+}
+
+#carousel-button-next {
+    cursor: pointer;
+    width: 12.9px;
+    height: 20.01px;;
+    position: absolute;
+    left: 58.43%;
+    right: 10.14%;
+    top: 26.73%;
+    bottom: 26.74%;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    }
+
+.dot-one {
+    
+    background: #5856CE;
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    left: 479px;
+    top: 28px;
+}
+
+.dot-one-background {
+    background: #A4A4A4;
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    left: 479px;
+    top: 28px;
+}
+
+.dot-two {
+    background:  #A4A4A4;
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    left: 499px;
+    top: 28px;
+}
+.dot-three {
+    background: #A4A4A4;
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    left: 519px;
+    top: 28px;
+}
+
+.learn-more {
+    color: #05034E;
+    font-family: Paytone One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 39px;
+    line-height: 47px;
+    text-align: center;
+    position: absolute;
+    width: 1120px;
+    height: 94px;
+    left: 169px;
+    top: 2184px;
+    }
+
+.booknow-btn {
+    cursor: pointer;
+    color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 32px;
+    position: absolute;
+    width: 164px;
+    height: 41px;
+    left: 639px;
+    top: 2318px;
+    background: #5856CE;
+    border-radius: 4px; 
+}
+
+.space {
+    top: 2500px;
+}
+
